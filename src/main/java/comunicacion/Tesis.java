@@ -17,12 +17,12 @@ public class Tesis extends Escrito{
     }
 
     @Override
-    int palabrasTotales(int palabrasPagina) {
+    public int palabrasTotales(int palabrasPagina) {
         return palabrasPagina * 5 * getPaginas();
     }
 
     @Override
-    String interpretacion() {
+    public String interpretacion() {
         return interpretacion;
     }
 
@@ -64,6 +64,6 @@ public class Tesis extends Escrito{
 
     @Override
     public String toString() {
-        return this.getOrigen() + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + this.getIdea() + "\n" + this.argumentos.length + "\n" + this.getConclusion() + "\n" + this.getReferencias();  
+        return this.getOrigen() + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + this.getIdea() + "\n" + this.getArgumentos().length + "\n" + this.getConclusion() + "\n" + this.getReferencias();  
     }
 }
