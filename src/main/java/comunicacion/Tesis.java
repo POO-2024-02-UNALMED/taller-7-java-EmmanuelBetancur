@@ -15,7 +15,7 @@ public class Tesis extends Escrito {
         this.referencias = referencias;
     }
 
-    // Métodos get y set
+    // Metodos get y set
     public String getIdea() {
         return idea;
     }

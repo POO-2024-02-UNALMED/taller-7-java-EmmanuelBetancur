@@ -10,7 +10,7 @@ public class Alfabeto extends Pictograma {
         Alfabeto.letras = letras;
     }
 
-    // Métodos get y set
+    // Metodos get y set
     public static String[] getLetras() {
         return letras;
     }
@@ -23,13 +23,13 @@ public class Alfabeto extends Pictograma {
         return letras.length;
     }
 
-    // Método interpretacion
+    // Metodo interpretacion
     @Override
     public String interpretacion() {
         return "Interpretación no definida en la clase Alfabeto.";
     }
 
-    // Método toString
+    // Metodo toString
     @Override
     public String toString() {
         return String.join(", ", letras);

@@ -9,7 +9,7 @@ public class Fabula extends Escrito {
         this.ensenanzas = ensenanzas;
     }
 
-    // Métodos get y set
+    // Metodos get y set
     public String getEnsenanzas() {
         return ensenanzas;
     }

@@ -13,7 +13,7 @@ public class Libro extends Escrito {
         this.edicion = edicion;
     }
 
-    // Métodos get y set
+    // Metodos get y set
     public String getCoAutor() {
         return coAutor;
     }

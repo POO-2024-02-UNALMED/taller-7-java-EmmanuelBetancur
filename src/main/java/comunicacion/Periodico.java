@@ -9,7 +9,7 @@ public class Periodico extends Escrito {
         this.primicia = primicia;
     }
 
-    // Métodos get y set
+    // Metodos get y set
     public String getPrimicia() {
         return primicia;
     }
