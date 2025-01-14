@@ -45,7 +45,7 @@ public class Libro extends Escrito {
 
     @Override
     public String interpretacion() {
-        return "Interpretación no definida en la clase Libro.";
+        return "Interpretacion no definida en la clase Libro.";
     }
 
     @Override

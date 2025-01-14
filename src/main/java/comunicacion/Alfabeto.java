@@ -26,7 +26,7 @@ public class Alfabeto extends Pictograma {
     // Metodo interpretacion
     @Override
     public String interpretacion() {
-        return "Interpretación no definida en la clase Alfabeto.";
+        return "Interpretacion no definida en la clase Alfabeto.";
     }
 
     // Metodo toString
